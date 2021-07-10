@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-protfolio",
+  "version": "1.0.0",
+  "description": "learning bootstrap v5 with sass",
+  "main": "index.js",
+  "scripts": {
+     "complie:sass":"sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Shahriar Bhuiyan",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.2",
+    "postcss-cli": "^8.3.1"
+  }
+}
